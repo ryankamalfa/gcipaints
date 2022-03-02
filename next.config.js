@@ -1,4 +1,4 @@
-// const withImages = require('next-images')
+const withImages = require('next-images')
 module.exports = {
   env: {
     PUBLIC_URL: ""
@@ -17,10 +17,10 @@ module.exports = {
       },
     ]
   },
-//   ...withImages(),
-//     future: {
-//         webpack5: true,
-//     },
+  ...withImages(),
+    future: {
+        webpack5: true,
+    },
   // i18n: {
   //   // These are all the locales you want to support in
   //   // your application

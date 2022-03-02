@@ -11,7 +11,7 @@ import slide_5 from '@/public/assets/images/category/wood-finish.jpg';
 const HoverBannerOne = ({ spaceBottomClass }) => {
   const params = {
     loop: true,
-    loopAdditionalSlides: true,
+    loopAdditionalSlides: false,
     speed: 1000,
     slidesPerView: 3,
     spaceBetween: 1,
@@ -20,6 +20,8 @@ const HoverBannerOne = ({ spaceBottomClass }) => {
       delay: 3500,
       disableOnInteraction: false,
     },
+    preloadImages: false,
+    lazy: true,
     // pagination: {
     //   el: ".swiper-pagination",
     //   clickable: true
@@ -64,7 +66,7 @@ const HoverBannerOne = ({ spaceBottomClass }) => {
                   alt=""
                 />
                 
-                {/* <Image src={slide_1} layout="fill" objectFit="cover" /> */}
+                {/* <Image src={slide_1} layout="fill" objectFit="cover " />*/}
               </div>
               <div className="single-category__content single-category__content--three single-category__content--three--creativehome  single-category__content--three--banner space-mt--25 space-mb--25">
                 <div className="title">

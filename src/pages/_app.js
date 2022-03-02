@@ -32,14 +32,7 @@ class MyApp extends App {
   render() {
     const { Component, pageProps, reduxStore } = this.props;
 
-    // reduxStore.subscribe(() => console.log(reduxStore.getState()))
-    // App.getInitialProps = async ({ ctx }) => {
-    //   const language = configureLanguage(ctx);
-      
-    //   return {
-    //     language
-    //   }
-    // };
+    
 
     return (
       <>

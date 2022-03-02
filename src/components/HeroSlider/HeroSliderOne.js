@@ -7,6 +7,7 @@ const HeroSliderOne = ({ sliderData }) => {
   const params = {
     loop: true,
     loopAdditionalSlides: true,
+    lazy:true,
     speed: 1000,
     spaceBetween: 200,
     autoplay: {

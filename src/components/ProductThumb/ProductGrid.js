@@ -4,7 +4,7 @@ import Link from "next/link";
 import { IoIosHeartEmpty, IoIosShuffle, IoIosSearch } from "react-icons/io";
 import { Tooltip } from "react-tippy";
 import ProductModal from "./ProductModal";
-
+import Image from 'next/image';
 const ProductGrid = ({
   product,
   discountedPrice,
@@ -41,20 +41,25 @@ const ProductGrid = ({
               }
             >
               <a className="image-wrap">
-                <img
-                  src={process.env.PUBLIC_URL + product.thumbImage[0]}
-                  className="img-fluid"
-                  alt={product.name}
-                />
-                {product.thumbImage.length > 1 ? (
-                  <img
-                    src={process.env.PUBLIC_URL + product.thumbImage[1]}
-                    className="img-fluid"
+                  <div  className="img-fluid" style={{width:'100%',height:'350px'}} >
+                  <Image
+                    src={process.env.PUBLIC_URL + product.thumbImage[0]}
                     alt={product.name}
-                  />
+                    layout="fill"
+                    />
+
+                {product.thumbImage.length > 1 ? (
+                    <Image
+                    src={process.env.PUBLIC_URL + product.thumbImage[1]}
+                    alt={product.name}
+                    layout="fill"
+                    />
                 ) : (
                   ""
                 )}
+                  </div>
+                
+                
               </a>
             </Link>
             <div className="product-grid__floating-badges">

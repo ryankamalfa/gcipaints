@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
-
+import Image from 'next/image';
 const ImageCtaTwo = ({ spaceBottomClass }) => {
   return (
     <div
@@ -27,15 +27,15 @@ const ImageCtaTwo = ({ spaceBottomClass }) => {
           </Col>
           <Col lg={6}>
             <div className="image-cta-two__image">
-              <img
-                src={process.env.PUBLIC_URL + "/assets/images/cta/catalouge-main.jpg"}
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover"
-                }}
-                alt=""
-              />
+                <div style={{width:'100%',height:'300px',position:'relative'}} >
+                <Image
+                    src={process.env.PUBLIC_URL + "/assets/images/cta/catalouge-main.jpg"}
+                    layout="fill"
+                    objectFit= "cover"
+                    />
+                </div>
+
+                
             </div>
           </Col>
         </Row>
