@@ -2,11 +2,7 @@ import Link from "next/link";
 import Image from 'next/image';
 import { Container, Row, Col } from "react-bootstrap";
 import Swiper from "react-id-swiper";
-import slide_1 from '@/public/assets/images/category/architecture.jpg';
-import slide_2 from '@/public/assets/images/category/automative.jpg';
-import slide_3 from '@/public/assets/images/category/decorative.jpg';
-import slide_4 from '@/public/assets/images/category/industrial-finish.jpg';
-import slide_5 from '@/public/assets/images/category/wood-finish.jpg';
+
 
 const HoverBannerOne = ({ spaceBottomClass }) => {
   const params = {

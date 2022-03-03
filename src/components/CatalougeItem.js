@@ -4,23 +4,23 @@ import Link from "next/link";
 export default function CatalougeItem({ title, image, link, productPDFFILE }) {
     return (
         <>
-            <div class="card" style={{ width: "21rem", padding: "0", border: 0, margin: "2rem" }}>
+            <div className="card" style={{ width: "21rem", padding: "0", border: 0, margin: "2rem" }}>
                 <Link
                     href={link}
                     as={process.env.PUBLIC_URL + link}
                 >
-                    <img class="card-img-top" src={image} alt="Card image cap" style={{ cursor: "pointer" }} />
+                    <img className="card-img-top" src={image} alt="Card image cap" style={{ cursor: "pointer" }} />
                 </Link>
-                {/* <div class="card-body">
+                {/* <div className="card-body">
                     <Link
                         href={link}
                         as={process.env.PUBLIC_URL + link}
                     >
-                        <h5 style={{ color: "#000", cursor: "pointer" }} class="card-title">{title}</h5>
+                        <h5 style={{ color: "#000", cursor: "pointer" }} className="card-title">{title}</h5>
                     </Link>
                 </div> */}
                 <div
-                    class="mt-4"
+                    className="mt-4"
                     style={{
                         padding: "8px 0",
                         display: "grid",

@@ -14,15 +14,15 @@ import { ProductGridWrapper } from "../components/ProductThumb";
 import { SectionTitleOne } from "../components/SectionTitle";
 import Link from "next/link";
 import Image from 'next/image';
-import gpg032_image from "../../public/assets/images/colors/fresh-green.jpg";
-import gpF021_image from '../../public/assets/images/colors/affectionate-blue.jpg';
-import gpH018_image from '../../public/assets/images/colors/distinguished-blue.jpg';
-import gpH050_image from '../../public/assets/images/colors/delicious-apples.jpg';
-import gpK018_image from '../../public/assets/images/colors/calm-blue.jpg';
-import gpK031_image from '../../public/assets/images/colors/greenish-blue.jpg';
-import gpY087_image from '../../public/assets/images/colors/warm-oily.jpg';
-import gpL027_image from '../../public/assets/images/colors/royal-rasasi.jpg';
-import gpL0168_image from '../../public/assets/images/colors/charcoal-lead.jpg';
+// import gpg032_image from "../../public/assets/images/colors/fresh-green.jpg";
+// import gpF021_image from '../../public/assets/images/colors/affectionate-blue.jpg';
+// import gpH018_image from '../../public/assets/images/colors/distinguished-blue.jpg';
+// import gpH050_image from '../../public/assets/images/colors/delicious-apples.jpg';
+// import gpK018_image from '../../public/assets/images/colors/calm-blue.jpg';
+// import gpK031_image from '../../public/assets/images/colors/greenish-blue.jpg';
+// import gpY087_image from '../../public/assets/images/colors/warm-oily.jpg';
+// import gpL027_image from '../../public/assets/images/colors/royal-rasasi.jpg';
+// import gpL0168_image from '../../public/assets/images/colors/charcoal-lead.jpg';
 
 const Home = ({ newProducts, popularProducts, saleProducts }) => {
   return (
@@ -79,8 +79,8 @@ const Home = ({ newProducts, popularProducts, saleProducts }) => {
                     <h4>GP-G032</h4>
                   </div>
                   <div className="color-chip__detail" style={{position:"relative"}} >
-                      <Image src={gpg032_image} layout="fill" objectFit="cover" />
-                    {/* <img src="/assets/images/colors/shadow.png" alt="" class="shadow" /> */}
+                      {/* <Image src={gpg032_image} layout="fill" objectFit="cover */}
+                    <img src="/assets/images/colors/shadow.png" alt="" class="shadow" />
                     <div className="shadow"></div>
                   </div>
                 </div>
@@ -94,8 +94,8 @@ const Home = ({ newProducts, popularProducts, saleProducts }) => {
                     <h4>GP-F021</h4>
                   </div>
                   <div className="color-chip__detail">
-                    {/* <img src="/assets/images/colors/shadow.png" alt="" class="shadow" /> */}
-                    <Image src={gpF021_image} layout="fill" objectFit="cover" />
+                    <img src="/assets/images/colors/shadow.png" alt="" class="shadow" />
+                    {/* <Image src={gpF021_image} layout="fill" objectFit="cover */}
                     <div className="shadow"></div>
                   </div>
                 </div>
@@ -109,8 +109,8 @@ const Home = ({ newProducts, popularProducts, saleProducts }) => {
                     <h4>GP-H018</h4>
                   </div>
                   <div className="color-chip__detail" >
-                    {/* <img src="/assets/images/colors/shadow.png" alt="" class="shadow" /> */}
-                    <Image src={gpH018_image} layout="fill" objectFit="cover" />
+                    <img src="/assets/images/colors/shadow.png" alt="" class="shadow" />
+                    {/* <Image src={gpH018_image} layout="fill" objectFit="cover */}
                     <div className="shadow"></div>
                   </div>
                 </div>
@@ -124,8 +124,8 @@ const Home = ({ newProducts, popularProducts, saleProducts }) => {
                     <h4>GP-H050</h4>
                   </div>
                   <div className="color-chip__detail" >
-                    {/* <img src="/assets/images/colors/shadow.png" alt="" class="shadow" /> */}
-                    <Image src={gpH050_image} layout="fill" objectFit="cover" />
+                    <img src="/assets/images/colors/shadow.png" alt="" class="shadow" />
+                    {/* <Image src={gpH050_image} layout="fill" objectFit="cover */} 
                     <div className="shadow"></div>
                   </div>
                 </div>
@@ -139,8 +139,8 @@ const Home = ({ newProducts, popularProducts, saleProducts }) => {
                     <h4>GP-K018</h4>
                   </div>
                   <div className="color-chip__detail" >
-                    {/* <img src="/assets/images/colors/shadow.png" alt="" class="shadow" /> */}
-                    <Image src={gpK018_image} layout="fill" objectFit="cover" />
+                    <img src="/assets/images/colors/shadow.png" alt="" class="shadow" />
+                    {/* <Image src={gpK018_image} layout="fill" objectFit="cover */}
                     <div className="shadow"></div>
                   </div>
                 </div>
@@ -154,8 +154,8 @@ const Home = ({ newProducts, popularProducts, saleProducts }) => {
                     <h4>GP-K031</h4>
                   </div>
                   <div className="color-chip__detail" >
-                    {/* <img src="/assets/images/colors/shadow.png" alt="" class="shadow" /> */}
-                    <Image src={gpK031_image} layout="fill" objectFit="cover" />
+                    <img src="/assets/images/colors/shadow.png" alt="" class="shadow" />
+                    {/* <Image src={gpK031_image} layout="fill" objectFit="cover */}
                     <div className="shadow"></div>
                   </div>
                 </div>
@@ -169,8 +169,8 @@ const Home = ({ newProducts, popularProducts, saleProducts }) => {
                     <h4>GP-Y087</h4>
                   </div>
                   <div className="color-chip__detail">
-                    {/* <img src="/assets/images/colors/shadow.png" alt="" class="shadow" /> */}
-                    <Image src={gpY087_image} layout="fill" objectFit="cover" />
+                    <img src="/assets/images/colors/shadow.png" alt="" class="shadow" />
+                    {/* <Image src={gpY087_image} layout="fill" objectFit="cover */}
                     <div className="shadow"></div>
                   </div>
                 </div>
@@ -184,8 +184,8 @@ const Home = ({ newProducts, popularProducts, saleProducts }) => {
                     <h4>GP-L027</h4>
                   </div>
                   <div className="color-chip__detail" >
-                    {/* <img src="/assets/images/colors/shadow.png" alt="" class="shadow" /> */}
-                    <Image src={gpL027_image} layout="fill" objectFit="cover" />
+                    <img src="/assets/images/colors/shadow.png" alt="" class="shadow" />
+                    {/* <Image src={gpL027_image} layout="fill" objectFit="cover */}
                     <div className="shadow"></div>
                   </div>
                 </div>
@@ -199,8 +199,8 @@ const Home = ({ newProducts, popularProducts, saleProducts }) => {
                     <h4>GP-L0168</h4>
                   </div>
                   <div className="color-chip__detail" style={{ backgroundImage: "url(/assets/images/colors/charcoal-lead.jpg)" }}>
-                    {/* <img src="/assets/images/colors/shadow.png" alt="" class="shadow" /> */}
-                    <Image src={gpL0168_image} layout="fill" objectFit="cover" />
+                    <img src="/assets/images/colors/shadow.png" alt="" class="shadow" />
+                    {/* <Image src={gpL0168_image} layout="fill" objectFit="cover */}
                     <div className="shadow"></div>
                   </div>
                 </div>
